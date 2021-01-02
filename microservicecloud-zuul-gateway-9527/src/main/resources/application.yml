@@ -1,0 +1,12 @@
+info:
+  app.name: bjfu.microcloud
+  company.name: www.bjfu.com
+  build.artifacted: ${project.artifactId}
+  build.version: ${project.version}
+
+zuul:
+  ignored-services: "*"
+  routes:
+    mydept.serviceId: microservicecloud-dept
+    mydept.path: /mydept/**
+  prefix: /bjfu

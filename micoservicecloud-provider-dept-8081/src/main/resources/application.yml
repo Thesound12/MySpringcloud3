@@ -1,0 +1,5 @@
+info:
+  app.name: bjfu-microservicecloud
+  company.name: www.bjfu.edu.cn
+  build.artifactId: ${project.artifactId}
+  build.version: ${project.version}
