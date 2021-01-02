@@ -1,4 +1,4 @@
-package com.bjfu.springcloud.contrroller;
+package com.bjfu.springcloud.controller;
 
 import com.bjfu.springcloud.entity.Dept;
 import com.bjfu.springcloud.service.DeptClientService;
